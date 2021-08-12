@@ -32,7 +32,7 @@
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#resume">Resume</a></li>
-								<li><a href="#paper-reviews"> Reviews</a></li>
+								<li><a href="#blog"> Blog</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -45,9 +45,21 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#resume">awesome resume</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<span class="image main"><img src="images/circle.png" alt="" /></span>
+								<p>Sorry for the huge mugshot you just had to see. I wanted to fix its size but got lazy halfway, so I turned it into a feature, not a bug. ;) </p>
+								<p>I am a first year grad student at Georgia Tech, Atlanta. I intend to graduate in 2023 with an MS in Computer Science. My track is "Computing Systems" though a significant part of me really wants to explore <a href="https://www.cc.gatech.edu/academics/degree-programs/masters/computer-science/specializations" target="_blank" rel="noopener noreferrer">Social Computing</a>.</p>
+								<p>Prior to this, I worked at Zendrive for 3 years. Zendrive is a data-driven insurtech company which crunches insane amounts of driving data to figure out how well you drive your car, using just your mobile phone sensors. The SDK we build can also figure out if you got into a car crash.</p>
+								<p>At Zendrive, I got to try on many hats. As an iOS Developer, I built an app "SensorLab" that could record, label, and upload sensor data, while coordinating with other devices in real time. Fun fact: this app was used in car crash tests at BMW facilities, Munich! Not so fun fact: I nearly shipped a wrong build of the app and learnt the wisdom of versioning the hard way.</p>
+
+								<span class="image main"><img src="images/sensorlab.png" alt="" /></span>
+								<p>
+								As a Data Engineer, I got to design and automate quite a few critical ETL pipelines that fed into the downstream machine learning models. This involved dealing with the complexities of nested data structures, and sheer scale (pre-covid, we were ingesting 5M trips every day). I am proud of my work on scaling up geospatial operations by migrating from PostGIS to GeoSpark. Other than my OKR stuff, I trained freshers in working in distributed systems, reviewed their code, and fixed their git issues. We've all been there. For a while, I was also the Airflow guy, helping other teams automate their pipelines as well.</p>
+								<p>While working with the Backend team, I owned a dashboard that our clients could use to get a bird's eye view on their fleet performance. I started with a design review elaborately covering data flow, costs, optimizations, limitations, and tradeoffs - which my manager Roop loved (his words, not mine). While implementing it, I used many AWS technologies: S3 for storage, Elastic Bean Stalk for orchestration, Route 53 for DNS, and so on.
+								</p>
+								<p></p>
+								<p>For a denser summary, check out my <a href="#resume">humble resume</a>. The coolest project I built was a pipeline which can - at the click of a button - download the K most popular posts from Reddit, convert them to images, and post them to Instagram. There were many interesting things under the hood like deduplication (what if the same post comes up the second time you run the pipeline), exploiting GSheets (as a DB, but not recommended), and dynamic text sizing. Sneaked some NLP in there too to infer tags, but the cooler NLP thing I was a part of is <a href="https://aclanthology.org/2021.eacl-main.7/" target="_blank">this paper</a> that got published in EACL.</p>
+								<p>Other than all that stuff, I am a trivia buff who made pocket money in his undergrad years by winning trivia quizzes. My YouTube homepage ranges from world history to soccer, k-pop to philosophy. I used to write more earlier though now it is mostly confined to my personal diary (ask me how it dramatically improved my quality of life). <i>I love cats.</i> Of all shapes, sizes, and personalities.
+								<span class="image main"><img src="images/cat.jpg" alt="" /></span>If you've read this far, can I trust you with <a href="https://www.youtube.com/watch?v=51_TkUfL43M" target="_blank" rel="noopener noreferrer">the most questionable thing</a> I've done?</p>
 							</article>
 
 						<!-- Resume -->
@@ -59,19 +71,15 @@
 							<p>Not rendering? Here's a <a href="https://drive.google.com/file/d/1gIbR5PIqllNwxeHomPyzh7zB0Lw9u5lx/view?usp=sharing" target="_blank" rel="noopener noreferrer">GDrive link</a> instead. Opens in a new tab!</p>
 							</article>
 
-						<!-- Paper Reviews -->
-							<article id="paper-reviews">
-								<h2 class="major">Ethereum</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-								<h2 class="major">Constructivism</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+						<!-- Blog -->
+							<article id="blog">
+								<h2 class="major">Blog</h2>
+								<p>Check out my <a href="https://medium.com/@suryashekhar" target="_blank">Medium</a> blog. &#9996;</p>
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
-							<h3 class="major">I'd love to connect with you on </h3>
+							<h3 class="major">Happy to have you on </h3>
 								<ul class="icons">
 									<li><a href="https://github.com/suryashekharc" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 									<li><a href="https://www.linkedin.com/in/suryashekhar/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
